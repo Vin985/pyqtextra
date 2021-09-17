@@ -1,4 +1,4 @@
-from PySide2 import QtWidgets, QtCore
+from PySide6 import QtWidgets, QtCore
 
 
 class JumpSlider(QtWidgets.QSlider):
@@ -13,9 +13,9 @@ class JumpSlider(QtWidgets.QSlider):
         return pos
 
     def mousePressEvent(self, ev):
-        """ Jump to click position """
+        """Jump to click position"""
         self.setValue(self.get_position(ev))
 
     def mouseMoveEvent(self, ev):
-        """ Jump to pointer position while moving """
+        """Jump to pointer position while moving"""
         self.setValue(self.get_position(ev))

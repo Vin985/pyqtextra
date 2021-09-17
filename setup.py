@@ -9,8 +9,8 @@ def read(fname):
 
 setup(
     author="Vin985",
-    description=("Extra widgets for Qt and Python using PySide2"),
-    keywords="qt, python, PySide2, widgets",
+    description=("Extra widgets for Qt and Python using PySide6"),
+    keywords="qt, python, PySide6, widgets",
     # long_description=read('README.md'),
     name="pyqt_extra",
     version="0.1",
